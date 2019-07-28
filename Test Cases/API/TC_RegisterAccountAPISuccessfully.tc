@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RegisterAccountAPISuccessfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>087dce7a-53b6-48ca-ac88-d83c3e8f7cfa</testCaseGuid>
+</TestCaseEntity>
