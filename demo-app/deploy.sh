@@ -1,0 +1,1 @@
+docker-compose -p saleor run --rm web /bin/sh -c 'python3 manage.py migrate && python3 manage.py populatedb --createsuperuser' && docker-compose -p saleor up -d
