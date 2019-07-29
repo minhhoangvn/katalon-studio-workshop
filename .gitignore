@@ -4,3 +4,4 @@ bin
 .classpath
 report
 Reports
+Libs/Temp*
