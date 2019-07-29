@@ -30,21 +30,21 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>'http://'</defaultValue>
+      <defaultValue>GlobalVariable.protocol</defaultValue>
       <description></description>
       <id>d5e4ffe1-af4f-4bed-91a4-d6fa531e0724</id>
       <masked>false</masked>
       <name>protocol</name>
    </variables>
    <variables>
-      <defaultValue>'localhost'</defaultValue>
+      <defaultValue>GlobalVariable.host</defaultValue>
       <description></description>
       <id>3c20802b-46ec-433e-86bb-5df4a7b1343e</id>
       <masked>false</masked>
       <name>host</name>
    </variables>
    <variables>
-      <defaultValue>':8000'</defaultValue>
+      <defaultValue>GlobalVariable.port</defaultValue>
       <description></description>
       <id>520d901b-c427-4ff1-b93d-df1eb8ea6993</id>
       <masked>false</masked>

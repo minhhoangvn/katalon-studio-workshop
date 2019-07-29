@@ -15,7 +15,7 @@ import kms.iqbr.extension.reportportal.listener.ReportPortalListener
  */
 @SetUp(skipped = false) // Please change skipped to be false to activate this method.
 def setUp() {
-	ExecutionEventManager.getInstance().addListenerEventHandle(new ReportPortalListener("DemoLaunchAPI", "DemoSuiteAPI"))
+		ExecutionEventManager.getInstance().addListenerEventHandle(new ReportPortalListener("DemoLaunchAll", "DemoLaunchAll"))
 }
 
 /**

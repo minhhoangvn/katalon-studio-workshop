@@ -24,6 +24,26 @@ public class GlobalVariable {
      */
     public static Object port
      
+    /**
+     * <p></p>
+     */
+    public static Object RP_HOST
+     
+    /**
+     * <p></p>
+     */
+    public static Object RP_TOKEN
+     
+    /**
+     * <p></p>
+     */
+    public static Object RP_NAME
+     
+    /**
+     * <p></p>
+     */
+    public static Object RP_SCREENSHOT_ON_FAILURE
+     
 
     static {
         try {
@@ -34,6 +54,10 @@ public class GlobalVariable {
             protocol = selectedVariables['protocol']
             host = selectedVariables['host']
             port = selectedVariables['port']
+            RP_HOST = selectedVariables['RP_HOST']
+            RP_TOKEN = selectedVariables['RP_TOKEN']
+            RP_NAME = selectedVariables['RP_NAME']
+            RP_SCREENSHOT_ON_FAILURE = selectedVariables['RP_SCREENSHOT_ON_FAILURE']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

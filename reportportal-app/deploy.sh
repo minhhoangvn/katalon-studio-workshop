@@ -1,0 +1,1 @@
+docker-compose -p saleor up -d --force-recreate

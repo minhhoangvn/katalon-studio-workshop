@@ -17,6 +17,9 @@ services:
     image: mongo:3.4
     #    ports:
     #        - "27017:27017"
+    # Comment volumes configuration for using in workshop purpose 
+    # in case we want to deploy it in production we should use volumes configuration for having
+    # persistent data
     # volumes:
     #   - ./data/mongo:/data/db
     restart: always
