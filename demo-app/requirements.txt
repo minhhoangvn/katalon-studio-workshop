@@ -74,7 +74,7 @@ jinja2==2.10.1
 jmespath==0.9.4
 jsonfield==2.0.2
 kombu==4.6.3
-lxml==4.3.4
+lxml==4.9.1
 markdown==3.1.1
 markupsafe==1.1.1
 maxminddb-geolite2==2018.703
